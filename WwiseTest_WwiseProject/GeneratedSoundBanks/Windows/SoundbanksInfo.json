@@ -1,0 +1,152 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{6B036A84-9570-483F-9DCF-EC21DF244C21}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{79F3DA6C-3793-4150-8283-0F456DA0F0BC}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "2844527155",
+    "Type": "Event",
+    "GUID": "{B536E59E-68C6-424F-B54E-5EF761E7099C}",
+    "Language": "SFX",
+    "Hash": "{A5B7D9DA-13AC-B8B2-A8D3-978E9A8753AF}",
+    "ObjectPath": "Play_Revolver",
+    "ShortName": "Play_Revolver",
+    "Path": "Event/Play_Revolver.bnk",
+    "Media": [
+     {
+      "Id": "319088756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "RevolverSFX.wav",
+      "Path": "Media/319088756.wem",
+      "CachePath": "54/{544E385F-74A3-212C-F46F-A0A8E4CBCE30}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2844527155",
+      "Name": "Play_Revolver",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Revolver",
+      "GUID": "{B536E59E-68C6-424F-B54E-5EF761E7099C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7763265",
+      "DurationMax": "1.7763265",
+      "MediaRefs": [
+       {
+        "Id": "319088756"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{8D221EE8-AD65-48E6-A701-24A0A7BD86E7}",
+    "Language": "SFX",
+    "Hash": "{3D6A5EE5-456F-FF02-5C99-4E836A3DC1C5}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "813459922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PisadasSFX.wav",
+      "CachePath": "8E/{8E1B3961-E86C-211B-BC40-4FDE7B866E22}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{EEE382A4-FD73-4C06-8ED4-51DC4CD526E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "15.536984",
+      "DurationMax": "15.536984",
+      "MediaRefs": [
+       {
+        "Id": "813459922"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3187507146",
+    "Type": "Event",
+    "GUID": "{0FBCF28B-65B2-4F27-BC3B-04D58F2ED1AA}",
+    "Language": "SFX",
+    "Hash": "{BCB18356-3422-5D77-7D07-27CA0B1CED05}",
+    "ObjectPath": "Play_Test",
+    "ShortName": "Play_Test",
+    "Path": "Event/Play_Test.bnk",
+    "Events": [
+     {
+      "Id": "3187507146",
+      "Name": "Play_Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Test",
+      "GUID": "{0FBCF28B-65B2-4F27-BC3B-04D58F2ED1AA}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{812306DC-1B2D-218D-7FAA-F3848F4C14E3}"
+ }
+}

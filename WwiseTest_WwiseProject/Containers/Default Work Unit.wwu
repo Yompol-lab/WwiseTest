@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RevolverSFX" ID="{DC771672-7F8B-48DB-B810-4E182E064FAA}" ShortID="541565865">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RevolverSFX" ID="{8AED5960-ADED-4116-91C0-3CE8CFAB7FF4}">
+							<Language>SFX</Language>
+							<AudioFile>RevolverSFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="319088756"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RevolverSFX" ID="{8AED5960-ADED-4116-91C0-3CE8CFAB7FF4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes" ID="{2D519DDD-2B95-4F9E-B3D6-99603FA91F66}" ShortID="374752949">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes" ID="{76802B5B-9549-4FCD-9B3B-7B367311A5F3}">
+							<Language>SFX</Language>
+							<AudioFile>A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="59205535"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes" ID="{76802B5B-9549-4FCD-9B3B-7B367311A5F3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Django-Unchained-opening-theme-elroymayer" ID="{953C02EF-BFA4-4B9B-8482-5BDA48FD5B89}" ShortID="796919701">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Django-Unchained-opening-theme-elroymayer" ID="{74CF23CF-181F-4CF2-80C6-55D03019EA08}">
+							<Language>SFX</Language>
+							<AudioFile>Django-Unchained-opening-theme-elroymayer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="505502016"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Django-Unchained-opening-theme-elroymayer" ID="{74CF23CF-181F-4CF2-80C6-55D03019EA08}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F2F1B56C-2B87-46C3-94BA-38422B00A0DD}" ShortID="350919242">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F769886D-F98B-4964-84C3-3AFDA6126176}">
+							<Language>SFX</Language>
+							<AudioFile>Here_s-to-you-_feat.-Joan-Baez_-Ennio-Morricone-_1_.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="474801986"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F769886D-F98B-4964-84C3-3AFDA6126176}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan" ID="{C3A98FFD-35DE-4958-8CB9-CA99D4C48804}" ShortID="817348457">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan" ID="{F8A17933-1A99-48E5-BC33-B37B03EC0B9E}">
+							<Language>SFX</Language>
+							<AudioFile>Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="818931179"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan" ID="{F8A17933-1A99-48E5-BC33-B37B03EC0B9E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PisadasSFX" ID="{F8BA1ADE-5420-444B-84BF-F13FC2BF784A}" ShortID="1010119961">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PisadasSFX" ID="{514C7860-3390-4E2A-A51B-2F2860CA084A}">
+							<Language>SFX</Language>
+							<AudioFile>PisadasSFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="813459922"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PisadasSFX" ID="{514C7860-3390-4E2A-A51B-2F2860CA084A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Footsteps" ID="{5433B2A0-F0F0-4493-9ADD-E969EC759C94}" ShortID="189723608">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C93A0126-85B4-44FC-9313-93FD9A9BE886}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C0E0ED8-8A07-4820-9E0C-FF485F317490}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PisadasSFX" ID="{138FD085-61EB-47B3-BAE9-31C475A37191}">
+							<Language>SFX</Language>
+							<AudioFile>PisadasSFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="813459922"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PisadasSFX" ID="{138FD085-61EB-47B3-BAE9-31C475A37191}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

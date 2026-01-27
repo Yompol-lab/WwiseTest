@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Test" ID="{0FBCF28B-65B2-4F27-BC3B-04D58F2ED1AA}"/>
+				<Event Name="Play_Revolver" ID="{B536E59E-68C6-424F-B54E-5EF761E7099C}">
+					<ChildrenList>
+						<Action Name="" ID="{A1E85E72-3589-4E07-A5D6-7702D7A9067B}" ShortID="583770084">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RevolverSFX" ID="{DC771672-7F8B-48DB-B810-4E182E064FAA}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{EEE382A4-FD73-4C06-8ED4-51DC4CD526E9}">
+					<ChildrenList>
+						<Action Name="" ID="{38E3BE8D-B861-425D-9715-54E9EDB3845E}" ShortID="960677462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{5433B2A0-F0F0-4493-9ADD-E969EC759C94}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
