@@ -1,0 +1,168 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{98498B4C-6328-3999-B943-16FD0010F17A}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{6B036A84-9570-483F-9DCF-EC21DF244C21}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{79F3DA6C-3793-4150-8283-0F456DA0F0BC}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3485936146",
+      "Name": "Bus_Fondo",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Bus_Fondo",
+      "GUID": "{FE3F2CF7-35DC-4676-B91D-D0A56E3A32F3}"
+     },
+     {
+      "Id": "4022696220",
+      "Name": "Bus_Saloon",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Bus_Saloon",
+      "GUID": "{2A78508E-5676-4D14-ADB4-2C68D4299E1A}"
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{8D221EE8-AD65-48E6-A701-24A0A7BD86E7}",
+    "Language": "SFX",
+    "Hash": "{BAC37D1C-97C4-7624-BE4B-FB6BEEFD602C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "59205535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes.wav",
+      "CachePath": "FA/{FA15EE59-F0EB-B7D2-C475-85ADA601F799}.wem"
+     },
+     {
+      "Id": "319088756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RevolverSFX.wav",
+      "CachePath": "54/{544E385F-74A3-212C-F46F-A0A8E4CBCE30}.wem"
+     },
+     {
+      "Id": "714524328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep.wav",
+      "CachePath": "6C/{6C14114C-18D3-150A-C4EF-A22BF4905876}.wem"
+     },
+     {
+      "Id": "818931179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan.wav",
+      "CachePath": "51/{516BC545-5111-7E4A-D973-1E6A15B5EDEF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3983236181",
+      "Name": "Play_DesertBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DesertBGM",
+      "GUID": "{83A169A8-1F08-4142-AFF8-1E03974B530C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "59205535"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{EEE382A4-FD73-4C06-8ED4-51DC4CD526E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8539909",
+      "DurationMax": "0.8539909",
+      "MediaRefs": [
+       {
+        "Id": "714524328"
+       }
+      ]
+     },
+     {
+      "Id": "2844527155",
+      "Name": "Play_Revolver",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Revolver",
+      "GUID": "{B536E59E-68C6-424F-B54E-5EF761E7099C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7763265",
+      "DurationMax": "1.7763265",
+      "MediaRefs": [
+       {
+        "Id": "319088756"
+       }
+      ]
+     },
+     {
+      "Id": "845156187",
+      "Name": "Play_SaloonMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SaloonMusic",
+      "GUID": "{280EB3F1-9C3E-4A12-A497-8604DB465247}",
+      "MaxAttenuation": "25",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "818931179"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C2F662E8-5508-1E5E-A689-FE6CF1CC096A}"
+ }
+}

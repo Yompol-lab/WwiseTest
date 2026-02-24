@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}",
+    "Hash": "{C5660D44-AE49-093B-188B-23D77B105B0B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -40,10 +40,50 @@
       "Name": "Main Audio Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3485936146",
+      "Name": "Bus_Fondo",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Bus_Fondo",
+      "GUID": "{FE3F2CF7-35DC-4676-B91D-D0A56E3A32F3}"
+     },
+     {
+      "Id": "4022696220",
+      "Name": "Bus_Saloon",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Bus_Saloon",
+      "GUID": "{2A78508E-5676-4D14-ADB4-2C68D4299E1A}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "832057371",
+      "Name": "Zona",
+      "ObjectPath": "\\States\\Default Work Unit\\Zona",
+      "GUID": "{E0A86ECD-9502-402F-A62E-D7C43A3943A2}",
+      "States": [
+       {
+        "Id": "349474162",
+        "Name": "Desierto",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\Desierto",
+        "GUID": "{933C4FD1-743F-42EA-8ECC-92BA508A30DA}"
+       },
+       {
+        "Id": "734820246",
+        "Name": "Adentro_Bar",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\Adentro_Bar",
+        "GUID": "{95DD5AEC-3042-47A9-A0C4-6A9E532A7398}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\None",
+        "GUID": "{CC93CF3E-D78A-4500-B45F-001F10633ED7}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{68776EDB-5A47-20BE-462B-4AD27FFF8D0B}"
+  "FileHash": "{6E171566-789A-8F89-9EFC-59BF722F8179}"
  }
 }

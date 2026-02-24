@@ -13,10 +13,29 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_DESERTBGM = 3983236181U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_HORSE = 1459665785U;
+        static const AkUniqueID PLAY_PEOPLE = 2399894983U;
         static const AkUniqueID PLAY_REVOLVER = 2844527155U;
-        static const AkUniqueID PLAY_TEST = 3187507146U;
+        static const AkUniqueID PLAY_SALOONMUSIC = 845156187U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace ZONA
+        {
+            static const AkUniqueID GROUP = 832057371U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ADENTRO_BAR = 734820246U;
+                static const AkUniqueID DESIERTO = 349474162U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ZONA
+
+    } // namespace STATES
 
     namespace BANKS
     {
@@ -26,6 +45,8 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID BUS_FONDO = 3485936146U;
+        static const AkUniqueID BUS_SALOON = 4022696220U;
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
     } // namespace BUSSES
 

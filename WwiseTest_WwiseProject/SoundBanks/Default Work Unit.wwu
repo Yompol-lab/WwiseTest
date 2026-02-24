@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{8D221EE8-AD65-48E6-A701-24A0A7BD86E7}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_DesertBGM" ID="{83A169A8-1F08-4142-AFF8-1E03974B530C}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Revolver" ID="{B536E59E-68C6-424F-B54E-5EF761E7099C}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_People" ID="{451F8EBE-A4D0-477E-9762-721A4C026FD4}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Horse" ID="{82C79F57-4062-491D-817F-8346C4BB5A86}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SaloonMusic" ID="{280EB3F1-9C3E-4A12-A497-8604DB465247}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{EEE382A4-FD73-4C06-8ED4-51DC4CD526E9}" WorkUnitID="{E5227861-7066-497F-8D8E-9A81C0ADF889}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

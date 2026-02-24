@@ -9,6 +9,37 @@
 							<ObjectRef Name="System" ID="{79F3DA6C-3793-4150-8283-0F456DA0F0BC}" WorkUnitID="{DD5A80BA-96D8-4D0A-AF97-521649762244}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Bus_Fondo" ID="{FE3F2CF7-35DC-4676-B91D-D0A56E3A32F3}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Zona" ID="{E0A86ECD-9502-402F-A62E-D7C43A3943A2}"/>
+										<StateGroupInfo Name="" ID="{98EAC014-C074-4AE2-B696-737CF26AF7AB}" ShortID="381049273"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Desierto" ID="{933C4FD1-743F-42EA-8ECC-92BA508A30DA}"/>
+										<CustomState Name="" ID="{4DA91119-96D3-450D-9BB8-7F6562E6D5D5}" ShortID="985395895"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{CC93CF3E-D78A-4500-B45F-001F10633ED7}"/>
+										<CustomState Name="" ID="{A351D8DE-20A6-4185-AFE6-150B8BE12A31}" ShortID="177225114"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Adentro_Bar" ID="{95DD5AEC-3042-47A9-A0C4-6A9E532A7398}"/>
+										<CustomState Name="" ID="{EFDC15A8-BEEB-44DE-85AE-2518CC2DA260}" ShortID="320194517">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Bus_Saloon" ID="{2A78508E-5676-4D14-ADB4-2C68D4299E1A}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CD93C4A3-3699-4F81-AA6E-2DD1AC0D502A}" SchemaVersion="133">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{CD93C4A3-3699-4F81-AA6E-2DD1AC0D502A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CD93C4A3-3699-4F81-AA6E-2DD1AC0D502A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Zona" ID="{E0A86ECD-9502-402F-A62E-D7C43A3943A2}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{CC93CF3E-D78A-4500-B45F-001F10633ED7}"/>
+						<State Name="Desierto" ID="{933C4FD1-743F-42EA-8ECC-92BA508A30DA}"/>
+						<State Name="Adentro_Bar" ID="{95DD5AEC-3042-47A9-A0C4-6A9E532A7398}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Desierto" ID="{933C4FD1-743F-42EA-8ECC-92BA508A30DA}"/>
+							<EndState Name="None" ID="{CC93CF3E-D78A-4500-B45F-001F10633ED7}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
