@@ -37,7 +37,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-25</Value>
+								<Value>-41</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -153,6 +153,17 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{1DAD443A-BCBD-4B2D-98CB-29CB9D353827}" ShortID="1061430667">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3">
+										<ObjectRef Name="New_Steam_Audio_Spatializer" ID="{6724E137-3B54-4E54-B671-F725BB02DDC7}" WorkUnitID="{E4549E71-D81F-480C-A879-23D07A7F3531}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan" ID="{F8A17933-1A99-48E5-BC33-B37B03EC0B9E}" Platform="Linked"/>
 					</ActiveSourceList>

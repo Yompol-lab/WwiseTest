@@ -560,14 +560,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -1024,8 +1024,91 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.71692, y: 9.684618, z: 12.771856}
-  m_Center: {x: 0.74653006, y: 4.2586327, z: -0.38360974}
+  m_Size: {x: 36.768265, y: 9.684618, z: 12.771856}
+  m_Center: {x: -4.2891474, y: 4.2586327, z: -0.38360977}
+--- !u!114 &800133793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800133784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c3684b22f00604a97bb68037fcf4cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioSource
+  directBinaural: 1
+  interpolation: 0
+  perspectiveCorrection: 0
+  distanceAttenuation: 0
+  distanceAttenuationInput: 0
+  distanceAttenuationValue: 1
+  airAbsorption: 0
+  airAbsorptionInput: 0
+  airAbsorptionLow: 1
+  airAbsorptionMid: 1
+  airAbsorptionHigh: 1
+  directivity: 0
+  directivityInput: 0
+  dipoleWeight: 0
+  dipolePower: 0
+  directivityValue: 1
+  occlusion: 1
+  occlusionInput: 0
+  occlusionType: 0
+  occlusionRadius: 1
+  occlusionSamples: 16
+  occlusionValue: 1
+  transmission: 1
+  transmissionType: 0
+  transmissionInput: 0
+  transmissionLow: 1
+  transmissionMid: 1
+  transmissionHigh: 1
+  maxTransmissionSurfaces: 1
+  directMixLevel: 1
+  reflections: 0
+  reflectionsType: 0
+  useDistanceCurveForReflections: 0
+  currentBakedSource: {fileID: 0}
+  reverbTimeLow: 0
+  reverbTimeMid: 0
+  reverbTimeHigh: 0
+  hybridReverbEQLow: 1
+  hybridReverbEQMid: 1
+  hybridReverbEQHigh: 1
+  hybridReverbDelay: 0
+  applyHRTFToReflections: 0
+  reflectionsMixLevel: 1
+  pathing: 0
+  pathingProbeBatch: {fileID: 0}
+  pathValidation: 1
+  findAlternatePaths: 1
+  pathingEQ:
+  - 1
+  - 1
+  - 1
+  pathingSH:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  applyHRTFToPathing: 0
+  pathingMixLevel: 1
+  normalizePathingEQ: 0
 --- !u!1001 &808187031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1094,6 +1177,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1116396584230706218, guid: b2720a2d2bdc4b24eba91d074b63eac3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 800133788}
+    - targetCorrespondingSourceObject: {fileID: 1116396584230706218, guid: b2720a2d2bdc4b24eba91d074b63eac3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800133793}
   m_SourcePrefab: {fileID: 100100000, guid: b2720a2d2bdc4b24eba91d074b63eac3, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -1406,6 +1492,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1034987530
 MeshFilter:
@@ -1637,6 +1724,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1062370456
 MeshFilter:
@@ -1661,6 +1749,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1080626047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5914926652265880351, guid: ff5d7e585281b824c8fba652841af94a, type: 3}
+  m_PrefabInstance: {fileID: 1212967819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1080626051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080626047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioGeometry
+  material: {fileID: 11400000, guid: 5272c55b882edd34a9d80b11bd6f240c, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!1001 &1129806092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1716,7 +1824,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2282663343413760109, guid: 7f124d3cf7aea204fb73e9d9578e3ca6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1340942643}
   m_SourcePrefab: {fileID: 100100000, guid: 7f124d3cf7aea204fb73e9d9578e3ca6, type: 3}
 --- !u!1 &1169207278
 GameObject:
@@ -1881,8 +1992,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5914926652265880351, guid: ff5d7e585281b824c8fba652841af94a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1080626051}
   m_SourcePrefab: {fileID: 100100000, guid: ff5d7e585281b824c8fba652841af94a, type: 3}
+--- !u!1 &1340942639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2282663343413760109, guid: 7f124d3cf7aea204fb73e9d9578e3ca6, type: 3}
+  m_PrefabInstance: {fileID: 1129806092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1340942643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340942639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioGeometry
+  material: {fileID: 11400000, guid: 5272c55b882edd34a9d80b11bd6f240c, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!1001 &1354996942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2116,6 +2250,52 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &2099620208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099620210}
+  - component: {fileID: 2099620209}
+  m_Layer: 0
+  m_Name: Steam Audio Static Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2099620209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099620208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8173b2a8dbe2d2d48995bb2ba9a49ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioStaticMesh
+  asset: {fileID: 11400000, guid: 60610a1d7d6c80c449a0a81e7b9601e3, type: 2}
+  sceneNameWhenExported: SampleScene
+--- !u!4 &2099620210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099620208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6268789763657507752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2197,3 +2377,4 @@ SceneRoots:
   - {fileID: 219198378}
   - {fileID: 1062370457}
   - {fileID: 421576228}
+  - {fileID: 2099620210}

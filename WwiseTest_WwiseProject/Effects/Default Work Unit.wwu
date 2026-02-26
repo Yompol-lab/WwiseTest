@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E4549E71-D81F-480C-A879-23D07A7F3531}" SchemaVersion="133">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{E4549E71-D81F-480C-A879-23D07A7F3531}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E4549E71-D81F-480C-A879-23D07A7F3531}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Steam_Audio_Spatializer" ID="{6724E137-3B54-4E54-B671-F725BB02DDC7}" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
