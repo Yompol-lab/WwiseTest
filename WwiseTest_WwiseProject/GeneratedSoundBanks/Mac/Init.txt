@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	832057371	Zona			\Default Work Unit\Zona	
+
+State	ID	Name	State Group			Notes
+	349474162	Desierto	Zona			
+	734820246	Adentro_Bar	Zona			
+	748895195	None	Zona			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
 	3485936146	Bus_Fondo			\Default Work Unit\Main Audio Bus\Bus_Fondo	

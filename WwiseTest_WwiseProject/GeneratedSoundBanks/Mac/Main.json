@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8D221EE8-AD65-48E6-A701-24A0A7BD86E7}",
     "Language": "SFX",
-    "Hash": "{BAC37D1C-97C4-7624-BE4B-FB6BEEFD602C}",
+    "Hash": "{A81AD6B3-83BB-B9B6-0198-C0A69A1FAD14}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -32,6 +32,22 @@
       "CachePath": "54/{544E385F-74A3-212C-F46F-A0A8E4CBCE30}.wem"
      },
      {
+      "Id": "369654811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GenteHablando.wav",
+      "CachePath": "CC/{CCCBF0B0-B9DD-DE6F-2D14-F4B6F5159ACF}.wem"
+     },
+     {
+      "Id": "505502016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Django-Unchained-opening-theme-elroymayer.wav",
+      "CachePath": "82/{82E8CC9F-F29D-6D9B-2909-292A0A2837F6}.wem"
+     },
+     {
       "Id": "714524328",
       "Language": "SFX",
       "Streaming": "false",
@@ -46,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan.wav",
       "CachePath": "51/{516BC545-5111-7E4A-D973-1E6A15B5EDEF}.wem"
+     },
+     {
+      "Id": "877091299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Horse.wav",
+      "CachePath": "87/{87564938-4CC9-6A68-EAD3-DBA2E560D72E}.wem"
      }
     ],
     "Events": [
@@ -76,6 +100,46 @@
       ]
      },
      {
+      "Id": "1459665785",
+      "Name": "Play_Horse",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Horse",
+      "GUID": "{82C79F57-4062-491D-817F-8346C4BB5A86}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "3.9049888",
+      "DurationMax": "3.9049888",
+      "MediaRefs": [
+       {
+        "Id": "877091299"
+       }
+      ]
+     },
+     {
+      "Id": "2570041344",
+      "Name": "Play_MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MenuMusic",
+      "GUID": "{A958C725-120F-4111-AD84-A5DBF04B4AE1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "505502016"
+       }
+      ]
+     },
+     {
+      "Id": "2399894983",
+      "Name": "Play_People",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_People",
+      "GUID": "{451F8EBE-A4D0-477E-9762-721A4C026FD4}",
+      "MaxAttenuation": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "369654811"
+       }
+      ]
+     },
+     {
       "Id": "2844527155",
       "Name": "Play_Revolver",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Revolver",
@@ -101,10 +165,20 @@
         "Id": "818931179"
        }
       ]
+     },
+     {
+      "Id": "2753202630",
+      "Name": "Stop_MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MenuMusic",
+      "GUID": "{AFCC0C47-AB60-4AD1-81B4-17E7A09C22A4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{8F0F7EBB-6360-0D28-E55C-731DD39D26D0}"
+  "FileHash": "{B17221E0-1F03-8771-FAAB-3B47D09CDA12}"
  }
 }

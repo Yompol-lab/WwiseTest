@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{98498B4C-6328-3999-B943-16FD0010F17A}",
+    "Hash": "{9D83C651-BCAC-E19F-45F3-57B0DB19EF71}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -53,9 +53,37 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Bus_Saloon",
       "GUID": "{2A78508E-5676-4D14-ADB4-2C68D4299E1A}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "832057371",
+      "Name": "Zona",
+      "ObjectPath": "\\States\\Default Work Unit\\Zona",
+      "GUID": "{E0A86ECD-9502-402F-A62E-D7C43A3943A2}",
+      "States": [
+       {
+        "Id": "349474162",
+        "Name": "Desierto",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\Desierto",
+        "GUID": "{933C4FD1-743F-42EA-8ECC-92BA508A30DA}"
+       },
+       {
+        "Id": "734820246",
+        "Name": "Adentro_Bar",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\Adentro_Bar",
+        "GUID": "{95DD5AEC-3042-47A9-A0C4-6A9E532A7398}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Zona\\None",
+        "GUID": "{CC93CF3E-D78A-4500-B45F-001F10633ED7}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{05C83F6C-6E1D-2404-293D-E50DEE3F9BD6}"
+  "FileHash": "{7A201400-0F8A-C9AA-A9A7-96957A9F498B}"
  }
 }

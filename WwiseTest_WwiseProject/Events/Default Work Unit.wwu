@@ -69,6 +69,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MenuMusic" ID="{A958C725-120F-4111-AD84-A5DBF04B4AE1}">
+					<ChildrenList>
+						<Action Name="" ID="{5EBE494D-C949-47D4-8551-669677790C1D}" ShortID="514783287">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Django-Unchained-opening-theme-elroymayer" ID="{953C02EF-BFA4-4B9B-8482-5BDA48FD5B89}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MenuMusic" ID="{AFCC0C47-AB60-4AD1-81B4-17E7A09C22A4}">
+					<ChildrenList>
+						<Action Name="" ID="{FCD068DC-34DB-49BF-AA7B-14E96F5B311F}" ShortID="762464882">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Django-Unchained-opening-theme-elroymayer" ID="{953C02EF-BFA4-4B9B-8482-5BDA48FD5B89}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CreditsMusic" ID="{4D25A7BA-93C4-45BF-ADA6-479B2F143B1B}">
+					<ChildrenList>
+						<Action Name="" ID="{D3B14C94-A22A-4CE1-960C-D1C9470465CA}" ShortID="425959029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F2F1B56C-2B87-46C3-94BA-38422B00A0DD}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_CreditsMusic" ID="{DF1B5CB1-F8A2-439E-ADBC-FDFC6644200C}">
+					<ChildrenList>
+						<Action Name="" ID="{95D502B9-7A31-4CA3-9C23-02AF40B2BB69}" ShortID="539210440">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F2F1B56C-2B87-46C3-94BA-38422B00A0DD}" WorkUnitID="{567842C6-BD8F-4E26-B7BE-FBC0F21CBAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

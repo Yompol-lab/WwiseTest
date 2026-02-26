@@ -13,12 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CREDITSMUSIC = 1874751385U;
         static const AkUniqueID PLAY_DESERTBGM = 3983236181U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_HORSE = 1459665785U;
+        static const AkUniqueID PLAY_MENUMUSIC = 2570041344U;
         static const AkUniqueID PLAY_PEOPLE = 2399894983U;
         static const AkUniqueID PLAY_REVOLVER = 2844527155U;
         static const AkUniqueID PLAY_SALOONMUSIC = 845156187U;
+        static const AkUniqueID STOP_CREDITSMUSIC = 1922604499U;
+        static const AkUniqueID STOP_MENUMUSIC = 2753202630U;
     } // namespace EVENTS
 
     namespace STATES

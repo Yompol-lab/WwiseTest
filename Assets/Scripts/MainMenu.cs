@@ -1,32 +1,61 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class MainMenu : MonoBehaviour
 {
+    [Header("Configuración de Audio")]
+    public float tiempoDeEspera = 2f;
 
     public void Jugar()
     {
-        SceneManager.LoadScene("SampleScene");
+        StartCoroutine(TransicionConAudio("SampleScene"));
     }
 
     public void Salir()
     {
         Debug.Log("Saliendo...");
-        Application.Quit();
+        StartCoroutine(SalirConAudio());
     }
 
     public void VolverJugar()
     {
-        SceneManager.LoadScene("SampleScene");
+        StartCoroutine(TransicionConAudio("SampleScene"));
     }
 
     public void VolverMenu()
     {
-        SceneManager.LoadScene("Menu");
+        StartCoroutine(TransicionConAudio("Menu"));
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene("Credits");
+        StartCoroutine(TransicionConAudio("Credits"));
     }
 
+    
+
+    private IEnumerator TransicionConAudio(string nombreEscena)
+    {
+       
+        AkSoundEngine.PostEvent("Stop_MenuMusic", this.gameObject);
+
+        
+        yield return new WaitForSeconds(tiempoDeEspera);
+
+        
+        SceneManager.LoadScene(nombreEscena);
+    }
+
+    private IEnumerator SalirConAudio()
+    {
+        
+        AkSoundEngine.PostEvent("Stop_MenuMusic", this.gameObject);
+
+       
+        yield return new WaitForSeconds(tiempoDeEspera);
+
+       
+        Application.Quit();
+    }
 }

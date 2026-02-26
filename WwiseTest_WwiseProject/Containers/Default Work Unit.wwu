@@ -64,6 +64,7 @@
 				</Sound>
 				<Sound Name="Django-Unchained-opening-theme-elroymayer" ID="{953C02EF-BFA4-4B9B-8482-5BDA48FD5B89}" ShortID="796919701">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -93,9 +94,10 @@
 				</Sound>
 				<Sound Name="Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_" ID="{F2F1B56C-2B87-46C3-94BA-38422B00A0DD}" ShortID="350919242">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-27</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
