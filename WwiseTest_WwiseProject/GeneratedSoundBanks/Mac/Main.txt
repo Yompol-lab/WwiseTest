@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	845156187	Play_SaloonMusic			\Default Work Unit\Play_SaloonMusic	
 	1459665785	Play_Horse			\Default Work Unit\Play_Horse	
+	1874751385	Play_CreditsMusic			\Default Work Unit\Play_CreditsMusic	
+	1922604499	Stop_CreditsMusic			\Default Work Unit\Stop_CreditsMusic	
 	2399894983	Play_People			\Default Work Unit\Play_People	
 	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
 	2753202630	Stop_MenuMusic			\Default Work Unit\Stop_MenuMusic	
@@ -12,6 +14,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	59205535	A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes	.cache\FA\{FA15EE59-F0EB-B7D2-C475-85ADA601F799}.wem		\Containers\Default Work Unit\A-Fistful-of-Dollars-•-Main-Theme-•-Ennio-Morricone-HD-Film-Tributes		34403424
 	319088756	RevolverSFX	.cache\54\{544E385F-74A3-212C-F46F-A0A8E4CBCE30}.wem		\Containers\Default Work Unit\RevolverSFX		313440
 	369654811	GenteHablando	.cache\CC\{CCCBF0B0-B9DD-DE6F-2D14-F4B6F5159ACF}.wem		\Containers\Default Work Unit\GenteHablando		6119520
+	474801986	Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_	.cache\A9\{A90FBF2F-592C-6931-E5D1-5E248C8130C4}.wem		\Containers\Default Work Unit\Here_s-to-you-_feat_-Joan-Baez_-Ennio-Morricone-_1_		36260448
 	505502016	Django-Unchained-opening-theme-elroymayer	.cache\82\{82E8CC9F-F29D-6D9B-2909-292A0A2837F6}.wem		\Containers\Default Work Unit\Django-Unchained-opening-theme-elroymayer		33417312
 	714524328	Footstep	.cache\6C\{6C14114C-18D3-150A-C4EF-A22BF4905876}.wem		\Containers\Default Work Unit\Footstep		150740
 	818931179	Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan	.cache\51\{516BC545-5111-7E4A-D973-1E6A15B5EDEF}.wem		\Containers\Default Work Unit\Red-Dead-Redemption-2-Official-Soundtrack-A-Quiet-Time-Arthur-Morgan		62051424

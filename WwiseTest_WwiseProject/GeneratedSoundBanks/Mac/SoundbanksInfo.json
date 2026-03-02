@@ -96,7 +96,7 @@
     "Type": "User",
     "GUID": "{8D221EE8-AD65-48E6-A701-24A0A7BD86E7}",
     "Language": "SFX",
-    "Hash": "{A81AD6B3-83BB-B9B6-0198-C0A69A1FAD14}",
+    "Hash": "{8E367057-7F37-A80B-AFE1-D45182AB71B5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -124,6 +124,14 @@
       "Location": "Memory",
       "ShortName": "GenteHablando.wav",
       "CachePath": "CC/{CCCBF0B0-B9DD-DE6F-2D14-F4B6F5159ACF}.wem"
+     },
+     {
+      "Id": "474801986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Here_s-to-you-_feat.-Joan-Baez_-Ennio-Morricone-_1_.wav",
+      "CachePath": "A9/{A90FBF2F-592C-6931-E5D1-5E248C8130C4}.wem"
      },
      {
       "Id": "505502016",
@@ -159,6 +167,18 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1874751385",
+      "Name": "Play_CreditsMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CreditsMusic",
+      "GUID": "{4D25A7BA-93C4-45BF-ADA6-479B2F143B1B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "474801986"
+       }
+      ]
+     },
      {
       "Id": "3983236181",
       "Name": "Play_DesertBGM",
@@ -253,6 +273,16 @@
       ]
      },
      {
+      "Id": "1922604499",
+      "Name": "Stop_CreditsMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_CreditsMusic",
+      "GUID": "{DF1B5CB1-F8A2-439E-ADBC-FDFC6644200C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2753202630",
       "Name": "Stop_MenuMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_MenuMusic",
@@ -265,6 +295,6 @@
     ]
    }
   ],
-  "FileHash": "{2ECF0E67-0852-7A24-BD02-8C2A2EF221BF}"
+  "FileHash": "{B9D8DDF0-E97E-F605-7D4D-77C14DD5F8D0}"
  }
 }
